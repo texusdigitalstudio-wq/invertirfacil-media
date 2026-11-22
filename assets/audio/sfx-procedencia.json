@@ -1,0 +1,42 @@
+{
+ "numpy": "2.5.3",
+ "scipy": "1.18.1",
+ "efectos": {
+  "whoosh": {
+   "archivo": "sfx-whoosh.wav",
+   "segundos": 0.5,
+   "ancla_s": 0.32,
+   "sha256": "6f03cd7391e9f7e60bb275d3631d6c30b635011cbbef54162b82ed57024048b8"
+  },
+  "pop": {
+   "archivo": "sfx-pop.wav",
+   "segundos": 0.16,
+   "ancla_s": 0.0,
+   "sha256": "12f6597f24c541bc8d7dde05848bb59af0a1c4113b38ff0e9e0faa4f13415895"
+  },
+  "tick": {
+   "archivo": "sfx-tick.wav",
+   "segundos": 0.05,
+   "ancla_s": 0.0,
+   "sha256": "bced31954032a80acbd6705ac361adb83aaf75fcd233c637a7dcbfaf59e5ca6b"
+  },
+  "trazo": {
+   "archivo": "sfx-trazo.wav",
+   "segundos": 0.34,
+   "ancla_s": 0.0,
+   "sha256": "804f2a44679bf55e194f4b32a8dae91cd8182a1f70e5be90e2e59d7c58eddc11"
+  },
+  "subida": {
+   "archivo": "sfx-subida.wav",
+   "segundos": 0.9,
+   "ancla_s": 0.9,
+   "sha256": "3f6d6d780923430b973bebda0a5b8646465f2552697f72e6c307c2c4e6f87096"
+  },
+  "golpe": {
+   "archivo": "sfx-golpe.wav",
+   "segundos": 1.2,
+   "ancla_s": 0.0,
+   "sha256": "71188c19d26b34829efda07ab1e3b5b98dd73656cc18ebcff699f895084ebb97"
+  }
+ }
+}

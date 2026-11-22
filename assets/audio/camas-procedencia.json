@@ -1,0 +1,311 @@
+{
+ "soundfont": {
+  "archivo": "MS Basic.sf3",
+  "sha256": "5ea2375e8bd7d8e71def1036978c1621e85b66934169b6a2744b27b9b3c2d99c"
+ },
+ "fluidsynth": "2.3.4",
+ "numpy": "2.5.3",
+ "scipy": "1.18.1",
+ "camas": {
+  "A": {
+   "nombre": "A",
+   "estilo": "lo-fi",
+   "bpm": 90,
+   "compases": 24,
+   "tonalidad": "Fa mayor",
+   "progresion": "IVmaj9 iii7 ii9 V9sus-V9 (compases 1-8 y 17-24) · Imaj9 vi7 ii9 V9sus-V9 (9-16)",
+   "muestras_por_semicorchea": 7350.0,
+   "loop_muestras": 2822400,
+   "inicio_muestras": 264600,
+   "final_muestras": 242550,
+   "instrumentos": [
+    {
+     "pista": "ep",
+     "banco": 0,
+     "preset": 4,
+     "bateria": false
+    },
+    {
+     "pista": "bajo",
+     "banco": 0,
+     "preset": 33,
+     "bateria": false
+    },
+    {
+     "pista": "bat",
+     "banco": 128,
+     "preset": 40,
+     "bateria": true
+    },
+    {
+     "pista": "bombo",
+     "banco": 128,
+     "preset": 40,
+     "bateria": true
+    },
+    {
+     "pista": "mel",
+     "banco": 8,
+     "preset": 0,
+     "bateria": false
+    }
+   ],
+   "ganancias_db": {
+    "ep": [
+     12.95,
+     0.0
+    ],
+    "bajo": [
+     10.88,
+     0.0
+    ],
+    "bat": [
+     16.15,
+     1.25
+    ],
+    "bombo": [
+     5.96,
+     0.58
+    ],
+    "mel": [
+     13.2,
+     0.0
+    ]
+   },
+   "ganancia_maestra_db": 0.44,
+   "archivos": {
+    "cama-A.wav": {
+     "sha256": "4669b4a41e40c892342c237009b62b6e86af455b279a2203ff3da4058700306b",
+     "muestras": 2822400,
+     "segundos": 64.0
+    },
+    "cama-A-inicio.wav": {
+     "sha256": "1e92761fa69836d60f6d855fe70532d7f6e6debba3a57134985e775586964718",
+     "muestras": 264600,
+     "segundos": 6.0
+    },
+    "cama-A-final.wav": {
+     "sha256": "51069bced394734eaa25c141b98f56d69f9ee7ee9b419cdf60c724bddaa1b020",
+     "muestras": 242550,
+     "segundos": 5.5
+    }
+   },
+   "prueba_loop": {
+    "cola_plegada_en_el_cambio_dbfs": -240.0,
+    "dif_inicio_loop_ultimos_50ms_dbfs": -240.0,
+    "cola_restante_al_final_del_render_dbfs": -240.0,
+    "reduccion_limitador_db": 1.95
+   }
+  },
+  "B": {
+   "nombre": "B",
+   "estilo": "explicativa enérgica",
+   "bpm": 112,
+   "compases": 32,
+   "tonalidad": "Do mayor",
+   "progresion": "I V vi IV (compases 1-8 y 17-24) · IV V iii vi IV V vi V (9-16 y 25-32)",
+   "muestras_por_semicorchea": 5906.25,
+   "loop_muestras": 3024000,
+   "inicio_muestras": 264600,
+   "final_muestras": 242550,
+   "instrumentos": [
+    {
+     "pista": "mar",
+     "banco": 0,
+     "preset": 12,
+     "bateria": false
+    },
+    {
+     "pista": "pizz",
+     "banco": 0,
+     "preset": 45,
+     "bateria": false
+    },
+    {
+     "pista": "bajo",
+     "banco": 0,
+     "preset": 34,
+     "bateria": false
+    },
+    {
+     "pista": "bat",
+     "banco": 128,
+     "preset": 0,
+     "bateria": true
+    },
+    {
+     "pista": "bombo",
+     "banco": 128,
+     "preset": 0,
+     "bateria": true
+    },
+    {
+     "pista": "glk",
+     "banco": 0,
+     "preset": 9,
+     "bateria": false
+    },
+    {
+     "pista": "cuer",
+     "banco": 0,
+     "preset": 48,
+     "bateria": false
+    }
+   ],
+   "ganancias_db": {
+    "mar": [
+     12.94,
+     0.0
+    ],
+    "pizz": [
+     14.04,
+     0.0
+    ],
+    "bajo": [
+     9.44,
+     0.0
+    ],
+    "bat": [
+     16.54,
+     0.09
+    ],
+    "bombo": [
+     9.69,
+     0.56
+    ],
+    "glk": [
+     15.66,
+     0.0
+    ],
+    "cuer": [
+     3.4,
+     0.0
+    ]
+   },
+   "ganancia_maestra_db": -1.19,
+   "archivos": {
+    "cama-B.wav": {
+     "sha256": "4bf15740cf6fc67d648c7a10cc3e56dc87a451b36f7b49b65f2ae0195339cc8a",
+     "muestras": 3024000,
+     "segundos": 68.5714
+    },
+    "cama-B-inicio.wav": {
+     "sha256": "e314cc2722f21da96c62180aed0f3a078e8067f11eb2e6a6050cbb4fa50aa26a",
+     "muestras": 264600,
+     "segundos": 6.0
+    },
+    "cama-B-final.wav": {
+     "sha256": "5e577d659551f2ff2898f719fab84342c16164976b005caef7f4b8cf63160be5",
+     "muestras": 242550,
+     "segundos": 5.5
+    }
+   },
+   "prueba_loop": {
+    "cola_plegada_en_el_cambio_dbfs": -240.0,
+    "dif_inicio_loop_ultimos_50ms_dbfs": -240.0,
+    "cola_restante_al_final_del_render_dbfs": -240.0,
+    "reduccion_limitador_db": 1.76
+   }
+  },
+  "C": {
+   "nombre": "C",
+   "estilo": "curiosidad / tensión ligera",
+   "bpm": 98,
+   "compases": 28,
+   "tonalidad": "La menor",
+   "progresion": "i VI iv v con pedal de La (compases 1-8 y 17-24) · VI VII i i VI VII v v (9-16) · VI VII v v (25-28)",
+   "muestras_por_semicorchea": 6750.0,
+   "loop_muestras": 3024000,
+   "inicio_muestras": 264600,
+   "final_muestras": 242550,
+   "instrumentos": [
+    {
+     "pista": "pul",
+     "banco": 0,
+     "preset": 38,
+     "bateria": false
+    },
+    {
+     "pista": "sub",
+     "banco": 0,
+     "preset": 33,
+     "bateria": false
+    },
+    {
+     "pista": "pad",
+     "banco": 0,
+     "preset": 89,
+     "bateria": false
+    },
+    {
+     "pista": "cel",
+     "banco": 0,
+     "preset": 8,
+     "bateria": false
+    },
+    {
+     "pista": "bat",
+     "banco": 128,
+     "preset": 8,
+     "bateria": true
+    },
+    {
+     "pista": "bombo",
+     "banco": 128,
+     "preset": 8,
+     "bateria": true
+    }
+   ],
+   "ganancias_db": {
+    "pul": [
+     14.13,
+     0.0
+    ],
+    "sub": [
+     9.33,
+     0.11
+    ],
+    "pad": [
+     9.42,
+     0.0
+    ],
+    "cel": [
+     15.93,
+     0.0
+    ],
+    "bat": [
+     12.7,
+     0.07
+    ],
+    "bombo": [
+     5.79,
+     0.42
+    ]
+   },
+   "ganancia_maestra_db": 0.59,
+   "archivos": {
+    "cama-C.wav": {
+     "sha256": "e70ffc1f339419cfafe012a1b72aac8a9082f5587e9ad833ef26f7b3c7dd8d50",
+     "muestras": 3024000,
+     "segundos": 68.5714
+    },
+    "cama-C-inicio.wav": {
+     "sha256": "2e6230e0dbdad93515884a7286184323732141a049fca998f2881a59555ad416",
+     "muestras": 264600,
+     "segundos": 6.0
+    },
+    "cama-C-final.wav": {
+     "sha256": "91724e09b637473bb2b1c4c905f4eaf308466ec0a4631dcb3533683de6f9487f",
+     "muestras": 242550,
+     "segundos": 5.5
+    }
+   },
+   "prueba_loop": {
+    "cola_plegada_en_el_cambio_dbfs": -120.0,
+    "dif_inicio_loop_ultimos_50ms_dbfs": -118.5,
+    "cola_restante_al_final_del_render_dbfs": -240.0,
+    "reduccion_limitador_db": 2.94
+   }
+  }
+ }
+}
